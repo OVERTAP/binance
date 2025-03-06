@@ -82,7 +82,7 @@ def fetch_binance_data(symbol, interval='1h', limit=100):
     else:
         raise ValueError(f"Failed to fetch data for {symbol}: {data}")
 
-# 포지션 진입 정보 저장
+# 포지션 진입 정보 저장하기
 positions = {}
 
 # 포지션 관리: 손절 조건 확인
