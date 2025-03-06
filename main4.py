@@ -85,7 +85,7 @@ def fetch_binance_data(symbol, interval='1h', limit=100):
 # 포지션 진입 정보 저장하기
 positions = {}
 
-# 포지션 관리: 손절 조건 확인
+# 포지션 관리: 손절 조건 확인 d
 def check_stop_loss():
     try:
         for symbol, position_data in list(positions.items()):
